@@ -4,3 +4,13 @@ A- Blue/Azul
 B- Yellow/Amarillo
 C- Blue/Azul (ultimo merge de TESTING)
 D- favicon de BETA
+E- Si, Beta y Gamma.
+F- No dejo hacer los push despues de que Alpha hiciera el primero. 
+Alpha cambio el estado del repositorio remoto y el de Gamma y Beta quedo desactualizado 
+G- Una solucion es hacer git pull antes del push, para traer los cambios del repositorio a la carpeta actual.
+Otra es usar git fetch y git rebase antes del push para evitar hacer commits de merge. 
+Si hay conflictos se arreglan con git add y se continua con git rebase --continue 
+H- Se fuerza el push y se actualiza el repositorio, eliminando el <p></p> que antes estaba ahi.
+I- Cambiar a la rama DESARROLLO.
+Usar git pull para actualizar antes de agregar cada <p> y hacer el push uno por uno. 
+Para que no quede nadie con un repositorio desactualizado y solo tengan que agregar su <p>
